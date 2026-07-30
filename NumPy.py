@@ -7,13 +7,12 @@ print(a)
 az = np.zeros(2)
 
 
-#####
-# a1 = np.array([1,2,3,4,5,6])
-# a2 = np.array([[1,2],[3,4],[5,6]])
-# print(a1.ndim)
-# print(a2.ndim)
-# print(a1.itemsize)
-# print(a1.dtype)
+a1 = np.array([1,2,3,4,5,6])
+a2 = np.array([[1,2],[3,4],[5,6]])
+print(a1.ndim)
+print(a2.ndim)
+print(a1.itemsize)
+print(a1.dtype)
 
 
 #####
