@@ -4,34 +4,39 @@ import sys
 
 a = np.arange(6).reshape(3,2)
 print(a)
+az = np.zeros(2)
 
 
-'''
-a1 = np.array([1,2,3,4,5,6])
-a2 = np.array([[1,2],[3,4],[5,6]])
-print(a1.ndim)
-print(a2.ndim)
-print(a1.itemsize)
-print(a1.dtype)
+#####
+# a1 = np.array([1,2,3,4,5,6])
+# a2 = np.array([[1,2],[3,4],[5,6]])
+# print(a1.ndim)
+# print(a2.ndim)
+# print(a1.itemsize)
+# print(a1.dtype)
 
-a3 = np.array([[1,2],[3,4],[5,6]] , dtype=np.float64)
-print(a3.dtype)
-a4 = np.array([[1,2],[3,4],[5,6]] , dtype=complex)
-print(a4)
 
-a5 = np.zeros((3,3))
-print(a5)
-print(a5.dtype)
-a5 = np.ones((3,3))
-print(f"{a5} \n")
+#####
+# a3 = np.array([[1,2],[3,4],[5,6]] , dtype=np.float64)
+# print(a3.dtype)
+# a4 = np.array([[1,2],[3,4],[5,6]] , dtype=complex)
+# print(a4)
 
-a6 = np.arange(5)
-print(a6)
+#####
+# a5 = np.zeros((3,3))
+# print(a5)
+# print(a5.dtype)
+# a5 = np.ones((3,3))
+# print(f"{a5} \n")
 
-a7 = np.linspace(1,5,10)
-print(a7)
-'''
 
+#####
+# a6 = np.arange(5)
+# print(a6)
+
+######
+# a7 = np.linspace(1,5,10)
+# print(a7)
 
 
 """    # execution time of python list and numpy array
